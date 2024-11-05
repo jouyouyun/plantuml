@@ -5,13 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [unreleased]
+
+## [0.4.0] – 2024-09-17
+
+### Fixed
+
+- Updated command-line parameters for PlantUML to fit PlantUML v1.2023.0 changes. [#36](https://github.com/koppor/plantuml/issues/36)
+- Updated command-line parameters for Inkscape. [#33](https://github.com/koppor/plantuml/pull/33)
+- Works if multiple diagrams are present. [#15](https://github.com/koppor/plantuml/issues/15), [#17](https://github.com/koppor/plantuml/issues/17)
+
 ## [0.3.2] – 2023-05-12
 
 ### Changed
 
 - Updated file extension for including diagrams to `.tex` to align with changes
   introduced in PlantUML v1.2023.0. This change is not backwards compatible with
-  older versions of PlantUML.
+  older versions of PlantUML. [#29](https://github.com/koppor/plantuml/pull/29)
 
 ## [0.3.1] – 2020-05-19
 
@@ -66,7 +76,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 Initial public release
 
-[unreleased]: https://github.com/koppor/plantuml/compare/0.3.2...HEAD
+[unreleased]: https://github.com/koppor/plantuml/compare/0.4.0...main
+[0.4.0]: https://github.com/koppor/plantuml/compare/0.3.2...0.4.0
 [0.3.2]: https://github.com/koppor/plantuml/compare/0.3.1...0.3.2
 [0.3.1]: https://github.com/koppor/plantuml/compare/0.3.0...0.3.1
 [0.3.0]: https://github.com/koppor/plantuml/compare/0.2.3...0.3.0
